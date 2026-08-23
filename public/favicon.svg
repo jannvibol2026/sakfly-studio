@@ -1,0 +1,17 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sakfly-grad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="40" height="40" rx="10" fill="#0B1220" />
+  <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#sakfly-grad)" fill-opacity="0.15" />
+  <path
+    d="M28 8L12 20L22 22L12 32L28 22L18 20L28 8Z"
+    fill="url(#sakfly-grad)"
+    stroke="url(#sakfly-grad)"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+  />
+</svg>
