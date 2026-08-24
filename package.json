@@ -4,11 +4,11 @@
   "private": true,
   "description": "SAKFLY Studio — Create, Generate, and Innovate with AI. A complete AI creation platform powered by Google Vertex AI (Gemini, Imagen, TTS, Lyria).",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "node .next/standalone/server.js",
-    "lint": "next lint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start -H 0.0.0.0 -p ${PORT:-3000}",
+  "lint": "next lint"
+}
   "dependencies": {
     "next": "15.5.9",
     "react": "18.3.1",
