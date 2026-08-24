@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
   reactStrictMode: true,
   images: {
     remotePatterns: [
@@ -11,8 +10,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // TODO: When deploying with real Vertex AI / Firebase Storage image hosts,
-  // add their hostnames to images.remotePatterns above for next/image optimization.
 };
 
 export default nextConfig;
